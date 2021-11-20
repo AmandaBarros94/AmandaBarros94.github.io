@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #323131;
+    color: #A5A5A5;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 20px;
+}
+div.dad{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+div.name{
+    flex: 1 100%;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 80px;
+    line-height: 95px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h5{
+    line-height:1px;
+}
+p {
+    font-size: 30px;
+    padding: 60px 100px 0px 0px;
+    width: 60%;
+}
+ul {
+    display: flex;
+    flex: 1;
+    margin-bottom: 20px;
+}
+li {
+    margin-right: 30px;
+}
+strong{
+    font-weight: 600;
+    color: rgb(165, 90, 235);
+    font-family: 'Courier New', Courier, monospace;
+}
+strong.menu{
+    margin-right: 30px;
+}
+a {
+    text-decoration: none;
+    padding: 6px 5px;
+    border-radius: 4px;
+    border: 1px solid rgb(81, 81, 81);
+    background-color: rgb(188, 183, 183);
+    font-family: 'Courier New', Courier, monospace;
+    width: max-content;
+    margin-bottom: 10px;
+}
+a.button:hover{
+    background-color: #848080;
+}
+img {
+    border-radius: 100%;
+    border:2px solid rgb(165, 90, 235);
+    width: 300px;
+}
+div.presentation {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #0000003b;
+    width: 80vw;
+    padding-bottom: 50px;
+}
