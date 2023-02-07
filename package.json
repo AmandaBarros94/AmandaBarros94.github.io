@@ -1,0 +1,25 @@
+{
+  "name": "amandabarros94.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmandaBarros94/AmandaBarros94.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmandaBarros94/AmandaBarros94.github.io/issues"
+  },
+  "homepage": "https://github.com/AmandaBarros94/AmandaBarros94.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.4.1",
+    "ts-jest": "^29.0.5"
+  }
+}
